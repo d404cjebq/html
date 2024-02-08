@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>foramepro</title>
+<script>
+
+var name;
+var now = new date();
+var hour = new.getHours();
+
+name = window.prompt("what is your name");
+
+if (hour<12)
+document.write("Good morning,");
+else
+if (hour>=12)
+{
+hour = hour-12;
+else
+if (hour < 6)
+document.write("Good Afternoon,");
+else
+if (hour >= 6)
+document.write("Good Evening,");
+
+}
+
+document.writeln( name + ",Welcome to our project!");
+ 
+</script>
+
+    </head>
+
+        <frameset cols="20%,*">
+<frame name="frame" src="pro2.html"/>
+<frameset rows="100%,*">
+<frame name="frame" src="pro.html"/>
+</frameset>
+  </frameset> 
+
+</html>
